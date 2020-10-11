@@ -1,0 +1,46 @@
+*, ::before, ::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+td
+{
+    border: 1px solid black; /* auront une bordure de 1px */
+}
+
+.accueil{
+  height: 100vh;
+  width: 100%;
+  background: #4E8EB2;
+  border-style: solid;
+
+}
+
+@media screen and (max-width: 450px){
+  .accueil {
+    height: 85vh;
+  }
+}
+
+h1 {
+  font-size: 70px;
+  padding: 0 0 0 10vw;
+  position: relative;
+  color : white;
+
+}
+
+// .fond-curvy {
+//   width: 100%;
+//   position : absolute;
+//   left : 0;
+//   bottom : 0%;
+//   display: block;
+//   height: 30vh;
+//   border-style: solid;
+// }
